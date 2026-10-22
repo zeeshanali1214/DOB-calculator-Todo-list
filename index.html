@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOB Calculator & Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Daily Tools</h1>
+        <p>DOB Calculator and Todo List</p>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>DOB Calculator</h2>
+            <label for="dob">Enter Your Date of Birth</label>
+            <input type="date" id="dob">
+            <button id="calculateBtn">Calculate Age</button>
+            <p id="ageResult" aria-live="polite">Your age will appear here.</p>
+        </section>
+
+        <section class="card">
+            <h2>Todo List</h2>
+            <div class="task-input">
+                <input type="text" id="taskInput"
+                    placeholder="Enter a new task">
+                <button id="addBtn">Add Task</button>
+            </div>
+            <p id="taskMessage" aria-live="polite"></p>
+            <ul id="taskList"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Assignment 5 | HTML, CSS and JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
